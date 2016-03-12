@@ -1,6 +1,10 @@
 /*Initial render for screen sizes 240px-319px */
+body{
+    background-color: lightgrey;
+}
 .navbar-default{
     background-color: #44FF00;
+    border-color: transparent;
 }
 .navbar-default .navbar-brand{
     font-family: 'Pacifico';
@@ -8,7 +12,6 @@
     margin-top:10px;
     margin-bottom: 20px;
     color: white;
-    border-color: transparent;
 }
 .navbar-default .navbar-brand:hover{
     color: grey;
@@ -24,6 +27,18 @@
 }
 .navbar-default .navbar-toggle .icon-bar{
     background-color: white;
+}
+.navbar-default .navbar-collapse .nav > li >a {
+    color: white;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+.navbar-default .navbar-collapse .nav > li >a:hover{
+   background-color: grey;
+}
+.navbar-fixed-bottom{
+    background-color: grey;
+    margin-top:-10px;
 }
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
