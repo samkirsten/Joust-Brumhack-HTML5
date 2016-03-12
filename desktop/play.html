@@ -41,28 +41,38 @@
 <!--End header->
 <!--Begin content-->
 <div class="container">
-    <div class="jumbotron text-center">
-        <p>Welcome to<h1>Phone Gladiator!</h1></p>
-        <h2>Phone Gladiator is a game of agility, speed and endurance that you can play with your friends! All you need to play are two smartphones and an internet connection.</h2>
-    </div>
     <div class="row">
-        <div class="col-sm-12">
-            <div id="how_to_play">
-                <h2><strong>Rules</strong></h2>
-                <p>At least two phones must be placed at a minimum of 5 metres apart</p>
-                <p>Players must start by their phones and attempt to touch their opponent's phone</p>
-                <p>A round is over once all but one phone has been touched</p>
-                <p>If there are more than two players then it is a free-for-all.</p>
-                <p>The winner is the person who's phone has remained untouched!</p>
-                <p>We don't take responsibility for any broken devices..!</p>
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+            <div id="play_info">
+                <form>
+                    <fieldset class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Example: John Smith">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="name">Group Name</label>
+                        <input type="text" class="form-control" id="group" placeholder="Example: A Spiffing Group">
+                        <small>Please note that Group Names are case-sensitive</small>
+                    </fieldset>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="host" value="value1" checked>
+                            Host New Game
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="optionsRadios" id="join" value="value2">
+                            Join Existing Game
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Done</button>
+                </form>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-12">
-            <div id="dev_by">
-                <p><strong>Developed by Sam and Andy for BrumHack at the University of Birmingham, March 2016.</strong></p>
-            </div>
+        <div class="col-sm-2">
         </div>
     </div>
 </div>
