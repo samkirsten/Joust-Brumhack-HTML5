@@ -1,4 +1,4 @@
-
+/*Initial render for screen sizes 240px-319px */
 
 
 /* Custom, iPhone Retina */
@@ -23,5 +23,5 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    
+
 }
