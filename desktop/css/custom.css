@@ -77,6 +77,9 @@ body{
     margin-top:95px;
     margin-bottom: 10px;
 }
+#play_info{
+    text-align: center;
+}
 .btn-primary{
     background-color: #44FF00;
     border-color: transparent;
